@@ -1,9 +1,0 @@
-version: "3"
-services: 
-  specdiff_api: 
-    build:
-      context: .
-      dockerfile: ./build/Dockerfile
-    tty: true
-    volumes:
-      - ./app:/go/src/app
